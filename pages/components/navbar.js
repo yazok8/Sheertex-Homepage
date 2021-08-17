@@ -8,6 +8,9 @@ export default function Navbar() {
 
   return (
     <div>
+      <div className=" bg-gray-500 max-w-full font-bold text-center justify-center content-center mx-auto px-auto">
+        <p>FLASH SALE 15% OFF EVERYTHING + FREE SHIPPING</p>
+      </div>
       <nav className="bg-gray-100">
         <div className="flex justify-between border-b-2 flex-1 px-4 h-auto">
           <div className="-mr-2 flex md:hidden">
@@ -82,7 +85,7 @@ export default function Navbar() {
               </li>
             </ul>
           </div>
-          <div className="flex-shrink-0 font-bold text-center justify-center content-center mx-auto px-auto ">
+          <div className="flex-shrink-0 font-bold text-center justify-center content-center mx-auto px-auto">
             <h1 className="text-2xl px-auto my-4">
               <a href="#"> Sheertex </a>
             </h1>
