@@ -8,9 +8,11 @@ export default function Navbar() {
 
   return (
     <div>
+      {/* Banner */}
       <div className=" bg-gray-500 max-w-full font-bold text-center justify-center content-center mx-auto px-auto">
         <p>FLASH SALE 15% OFF EVERYTHING + FREE SHIPPING</p>
       </div>
+      {/* Navbar starts from here */}
       <nav className="bg-gray-100">
         <div className="flex justify-between border-b-2 flex-1 px-4 h-auto">
           <div className="-mr-2 flex md:hidden">
@@ -69,18 +71,18 @@ export default function Navbar() {
           <div div className="hidden md:inline-block mx-auto lg:px-8">
             <ul className=" ml-10 flex items-baseline space-x-4 mx-auto my-4">
               <li>
-                <a className=" px-3 py-2 text-sm font-medium" href="">
-                  Tights{' '}
+                <a className=" px-3 py-2 text-sm font-medium" href="#">
+                  Tights
                 </a>
               </li>
               <li>
-                <a className=" px-3 py-2 text-sm font-medium" href="">
-                  Stockings{' '}
+                <a className=" px-3 py-2 text-sm font-medium" href="#">
+                  Stockings
                 </a>
               </li>
               <li>
-                <a className=" px-3 py-2 text-sm font-medium" href="">
-                  Socks & Accessories{' '}
+                <a className=" px-3 py-2 text-sm font-medium" href="#">
+                  Socks & Accessories
                 </a>
               </li>
             </ul>
@@ -122,7 +124,7 @@ export default function Navbar() {
                 }}
               />
             </a>
-            <a className="" href="#">
+            <a href="#">
               <IoPersonOutline
                 style={{
                   color: 'grey',
