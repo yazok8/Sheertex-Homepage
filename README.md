@@ -1,5 +1,4 @@
 <h1>Sheertex Homepage</h1>
-<h3>I have done this job assesment in 5 days, 2 days for learning more about NextJS and Tailwindcss. If I had extra more time would have helped to finsh it completely.</h3>
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
